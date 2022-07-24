@@ -57,6 +57,10 @@ class KneuApi {
         return this.#getEntity('student', ...arguments)
     }
 
+    async getUser() {
+        return this.#request('user/me');
+    }
+
     async #getEntity(entityName, entityId) {
         if (!entityId) {
             throw new Error('Wrong ' + entityName + ' id: ' + entityId);
