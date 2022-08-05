@@ -1,6 +1,6 @@
 {
   "name": "kneu-api-client",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "API Client for make call to KNEU API",
   "main": "kneuApiClient.js",
   "scripts": {
